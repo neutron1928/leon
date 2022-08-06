@@ -1,0 +1,87 @@
+/* Start General Varibles */
+
+/* End General Variables */
+/* Start General Rules */
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:  #0a3d62;
+}
+.Container {
+    max-width: 600px;
+    margin: 10px auto;
+    position: relative;
+}
+/* End General Rules */
+/* Start Facebook Buttons */
+.facebook-section {
+    background-color: aliceblue;
+    margin: 10px  30px;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    height: fit-content;
+    position: relative;
+}
+.facebook-section h2 {
+    color: #f1c40f;
+    text-align: center;
+    margin: 15px 0px;
+    background-color: rgba(208, 214, 219, 0.527);
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+.facebook-btn {
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    font-size: .9rem;
+    padding: 6px 12px;
+}
+.facebook-section .facebook-btn-dark {
+  box-shadow: 0 1px 0 #4b73bf inset;
+  background-color: #4267b2 ;
+  border:3px solid #4267B2;
+  color: whitesmoke;
+  /* box-sizing: content-box; */
+  text-shadow: 0 1px 0 #4267B2;
+}
+ .facebook-btn-dark:hover {
+    background: #2b54a7;
+ }
+ .facebook-btn-dark:active {
+    background-color: #1d46a7;
+    border-color: #1d26a7;
+ }
+.facebook-btn-light {
+    color: #222;
+    padding: 10px 15px;
+    font-size: 1.4em;
+    background-color: whitesmoke;
+    border: 2px solid #ecf0f1;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+ .facebook-btn-light:hover {
+    background-color: #bdbfbc;
+    box-shadow: 0 0 4px 0 white;
+ }
+ .facebook-btn-light:active {
+    box-shadow: 0 0 3px 0 #dcf0a1;
+ }
+/* End Facebook Buttons */
